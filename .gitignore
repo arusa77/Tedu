@@ -1,0 +1,6 @@
+file1
+*.jpg
+dir/
+!img.jpg
+*.png
+!cost.png
