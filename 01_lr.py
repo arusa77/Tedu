@@ -38,9 +38,19 @@ iters = []
 costs = []
 
 
+params = {'xxx':train_data,'yyy':y_true}
 
+# 传入内容
 
+print("Tom传入")
 
+for i in range(200):
+    outs = exe.run(program=fluid.default_main_program(),
+                   fetch_list=[avg_cost,pred_y],
+                   feed=params)
+    iters.append(i)
+    costs.append(outs[0][0])
+    print('i:',i,'cost:',outs[0][0])
 
 
 
