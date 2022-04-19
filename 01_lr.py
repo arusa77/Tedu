@@ -47,7 +47,4 @@ for i in range(200):
     costs.append(outs[0][0])
     print('i:',i,'cost:',outs[0][0])
 
-# 损失函数的可视化
-plt.plot(iters,costs,color='orangered')
-plt.grid(linestyle=':')
-plt.savefig('cost.png')
+

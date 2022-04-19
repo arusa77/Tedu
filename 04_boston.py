@@ -1,4 +1,4 @@
-'''波士顿房屋价格预测'''
+'''第一种方案'''
 
 import paddle
 import paddle.fluid as fluid
