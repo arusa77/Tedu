@@ -37,7 +37,9 @@ exe.run(fluid.default_startup_program())
 iters = []
 costs = []
 
-params = {'xxx':train_data,'yyy':y_true}
+
+
+
 
 
 
